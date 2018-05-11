@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <card>
+        <pokémon>
+            <image>Bulbasaur.png</image>
+            <type1>Grass.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.</pokédex>
+            <link>https://pokemondb.net/pokedex/bulbasaur</link>
+        </pokémon>
+    
+        <pokémon>
+            <image>Ivysaur.png</image>
+            <type1>Grass.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom.</pokédex>
+            <link>https://pokemondb.net/pokedex/ivysaur</link>
+        </pokémon>
+        <pokémon>
+            <image>Venusaur.png</image>
+            <type1>Grass.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.</pokédex>
+            <link>https://pokemondb.net/pokedex/venusaur</link>
+        </pokémon>
+        <pokémon>
+            <image>Charmander.png</image>
+            <type1>Fire.jpg</type1>
+            <type2></type2>
+            <pokédex>From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.</pokédex>
+            <link>https://pokemondb.net/pokedex/charmander</link>
+        </pokémon>
+        <pokémon>
+            <image>Charmeleon.png</image>
+            <type1>Fire.jpg</type1>
+            <type2></type2>
+            <pokédex>When it swings its burning tail, it elevates the air temperature to unbearably high levels.</pokédex>
+            <link>https://pokemondb.net/pokedex/charmaleon</link>
+        </pokémon>
+        <pokémon>
+            <image>Charizard.png</image>
+            <type1>Fire.jpg</type1>
+            <type2>Flying.png</type2>
+            <pokédex>Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.</pokédex>
+            <link>https://pokemondb.net/pokedex/charizard</link>
+        </pokémon>
+        <pokémon>
+            <image>Squirtle.png</image>
+            <type1>Water.png</type1>
+            <type2></type2>
+            <pokédex>Shoots water at prey while in the water. Withdraws into its shell when in danger.</pokédex>
+            <link>https://pokemondb.net/pokedex/squirtle</link>
+        </pokémon>
+        <pokémon>
+            <image>Wartortle.png</image>
+            <type1>Water.png</type1>
+            <type2></type2>
+            <pokédex>It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.</pokédex>
+            <link>https://pokemondb.net/pokedex/wartortle</link>
+        </pokémon>
+        <pokémon>
+            <image>Blastoise.png</image>
+            <type1>Water.png</type1>
+            <type2></type2>
+            <pokédex>The pressurized water jets on this brutal Pokémon’s shell are used for high-speed tackles.</pokédex>
+            <link>https://pokemondb.net/pokedex/blastoise</link>
+        </pokémon>
+        <pokémon>
+            <image></image>
+            <type1></type1>
+            <type2></type2>
+            <pokédex></pokédex>
+            <link></link>
+        </pokémon>
+        <pokémon>
+            <image>Rhyhorn.png</image>
+            <type1>Ground.jpeg</type1>
+            <type2>Rock.jpeg</type2>
+            <pokédex>It is inept at turning because of its four short legs. It can only charge and run in one direction.</pokédex>
+            <link>https://pokemondb.net/pokedex/rhyhorn</link>
+        </pokémon>
+        <pokémon>
+            <image>Rhydon.png</image>
+            <type1>Ground.jpeg</type1>
+            <type2>Rock.jpeg</type2>
+            <pokédex>It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.</pokédex>
+            <link>https://pokemondb.net/pokedex/rhydon</link>
+        </pokémon>
+        <pokémon>
+            <image>Electabuzz.png</image>
+            <type1>Electric.png</type1>
+            <type2></type2>
+            <pokédex>It loves to feed on strong electricity. It occasionally appears around large power plants and so on.</pokédex>
+            <link>https://pokemondb.net/pokedex/electabuzz</link>
+        </pokémon>
+        <pokémon>
+            <image>Kangaskhan.png</image>
+            <type1>Normal.jpeg</type1>
+            <type2></type2>
+            <pokédex>If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.</pokédex>
+            <link>https://pokemondb.net/pokedex/kangaskhan</link>
+        </pokémon>
+        <pokémon>
+            <image>Scyther.png</image>
+            <type1>Flying.png</type1>
+            <type2>Bug.png</type2>
+            <pokédex>It slashes through grass with its sharp scythes, moving too fast for the human eye to track.</pokédex>
+            <link>https://pokemondb.net/pokedex/scyther</link>
+        </pokémon>
+        <pokémon>
+            <image>Sandshrew.png</image>
+            <type1>Ground.jpeg</type1>
+            <type2></type2>
+            <pokédex>Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.</pokédex>
+            <link>https://pokemondb.net/pokedex/sandshrew</link>
+        </pokémon>
+        <pokémon>
+            <image>Sandslash.png</image>
+            <type1>Ground.jpeg</type1>
+            <type2></type2>
+            <pokédex>If it digs at an incredible pace, it may snap off its spikes and claws. They grow back in a day.</pokédex>
+            <link>https://pokemondb.net/pokedex/sandslash</link>
+        </pokémon>
+        <pokémon>
+            <image>Snorlax.png</image>
+            <type1>Normal.jpeg</type1>
+            <type2></type2>
+            <pokédex>It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.</pokédex>
+            <link>https://pokemondb.net/pokedex/snorlax</link>
+        </pokémon>
+        <pokémon>
+            <image>Gastly.png</image>
+            <type1>Ghost.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation.</pokédex>
+            <link>https://pokemondb.net/pokedex/gastly</link>
+        </pokémon>
+        <pokémon>
+            <image>Haunter.png</image>
+            <type1>Ghost.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>It licks with its gaseous tongue to steal the victim’s life force. It lurks in darkness for prey.</pokédex>
+            <link>https://pokemondb.net/pokedex/haunter</link>
+        </pokémon>
+        <pokémon>
+            <image>Gengar.png</image>
+            <type1>Ghost.png</type1>
+            <type2>Poison.png</type2>
+            <pokédex>It hides in shadows. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees Fahrenheit.</pokédex>
+            <link>https://pokemondb.net/pokedex/gengar</link>
+        </pokémon>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </card>
