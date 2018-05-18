@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <card>
+        <pokémon>
+            <image>/image/Bulbasaur.png</image>
+            <type1>/image/Grass.png</type1>
+            <type2>/image/Poison.png</type2>
+            <pokédex>A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.</pokédex>
+            <link>https://pokemondb.net/pokedex/bulbasaur</link>
+        </pokémon>
+    </card>    
