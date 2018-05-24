@@ -38,6 +38,10 @@
       margin-left:57%;
       margin-top:3%;
     }
+    @keyframes appear {
+      from {opacity: 0}
+      to {opacity: 1}
+    }
     
     </style>
 </head>
@@ -70,7 +74,7 @@
 </div>
 <div class="yes">
 
-<div class="check" style=" visibility: visible" id="21";>
+<div class="check" style=" display: block" id="21";>
   <div class="card" style="width: 18rem; margin-left:67%; margin-top:4%;">
       <img class="mx-auto d-block" src="Images/silueta.png" alt="Card image cap" style=" width: 60%; height: 50%; padding-top:12px;">
       <div class="card-body">
@@ -686,8 +690,11 @@
              document.getElementById(21).style.display = "none";
               denak.forEach(function(e){
                 e.style.display= "none";
+                
               });
+              
               document.getElementById(zenbakia).style.display = "block";
+              document.getElementById(zenbakia).style.animation = "appear 0.5s linear forwards";
             }
           });
         });
