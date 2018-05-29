@@ -20,6 +20,7 @@
         width: 60%;
         margin-top: 4%;
         margin-left: 3%;
+        border-radius: 5px;
         
       }
       
@@ -38,20 +39,30 @@
       margin-left:57%;
       margin-top:3%;
     }
+   
     @keyframes appear {
       from {opacity: 0}
       to {opacity: 1}
     }
+    .proba{
+      float: left;
+      margin-left: -30%;
+
+    }
+
     
     </style>
 </head>
 <body>
   
+  
     
     <div class="container">
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">PokéMap</a>
+        <div>
+            <img src="logo.png" width="17%" class="proba">
+          </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-radius: 5px;">
+            <a class="navbar-brand" href="MainFile.html">PokéMap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,10 +70,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Pokédex<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="https://pokemondb.net/pokedex/all">Pokédex<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item active">
+                  <a class="nav-link " href="https://pokemon.gameinfo.io/en/tools/iv-calculator">IVs calculator</a>
+                </li><li class="nav-item active">
+                  <a class="nav-link " href="https://pokemon.gameinfo.io/es/tools/evolution-calculator">CPs calculator</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -387,27 +400,22 @@
           position: new google.maps.LatLng(43.32532299999999,-1.9835540000000265),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.325418,-1.9843899999999621),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.325849,-1.9847710000000234),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.325809,-1.9858329999999569),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.32534,-1.9876070000000254),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.326553,-1.990513999999962),
           type: 'poke'
@@ -553,27 +561,22 @@
           position: new google.maps.LatLng(43.322352,-1.9803229999999985),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.322642,-1.9835090000000264),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.324028,-1.9760760000000346),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.324045,-1.9755319999999301),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.32372199999999,-1.9778370000000223),
           type: 'poke'
         },
-
         {
           position: new google.maps.LatLng(43.322086,-1.977912999999944),
           type: 'poke'
@@ -669,9 +672,6 @@
         
           
           
-
-
-
         ];
         // Create markers.
         features.forEach(function(feature) {
