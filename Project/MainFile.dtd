@@ -1,0 +1,8 @@
+<!ELEMENT card (SYSTEM)>
+<!ELEMENT card (pokémon*)>
+    <!ELEMENT pokémon (image, type1, type2, pokédex, link)>
+        <!ELEMENT image (#PCDATA)>
+        <!ELEMENT type1 (#PCDATA)>
+        <!ELEMENT type2 (#PCDATA)>
+        <!ELEMENT pokédex (#PCDATA)>
+        <!ELEMENT link (#PCDATA)>

@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style>
     body{
         background-image: url(Images/Background.jpg);
@@ -77,6 +80,10 @@
                 </li><li class="nav-item active">
                   <a class="nav-link " href="https://pokemon.gameinfo.io/es/tools/evolution-calculator">CPs calculator</a>
                 </li>
+                <li class="nav-item active">
+                  <a class="nav-link " href="loginPG.html">Login</a>
+                </li>
+
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -326,8 +333,9 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
-  
+  <!-- This is the function that introduces the map from google.maps -->
     <div id="map">
+
     <script>
       var map;
       function initMap() {
@@ -345,8 +353,9 @@
             
           
           
-          
+        
         };
+        /* This is an array containing all the data about markers */
         var features = [
         {
           position: new google.maps.LatLng(43.323109,-1.991072000000031),
@@ -680,13 +689,14 @@
             icon: icons.poke,
             map: map
           });
-         
+         // We are making the icons "listen" to a function when they are clicked.
           marker.addListener('click', function(){
             var zenbakia = Math.floor((Math.random()* 20) +1);
             console.log(zenbakia);
             //document.querySelectorAll(".check")
             var denak = document.querySelectorAll(".None");
             if ( e = zenbakia){   
+              
              document.getElementById(21).style.display = "none";
               denak.forEach(function(e){
                 e.style.display= "none";
@@ -698,8 +708,12 @@
             }
           });
         });
+        //Trying to add an animation to the moment when the card is hidden 
         
-       
+      /*   
+      $( marker ).click(function() {
+      $( ".None" ).toggle( "bounce", { times: 3}, "slow" );
+      }); */
       }
     </script>
     
