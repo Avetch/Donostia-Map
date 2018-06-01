@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
     <style>
     body{
         background-image: url(Images/Background.jpg);
@@ -58,7 +60,7 @@
 </head>
 <body>
   
-  
+  <!-- This belongs to the navegation bar part -->
     
     <div class="container">
         <div>
@@ -92,6 +94,7 @@
             </div>
           </nav>
 </div>
+<!-- This is the default card that is going to appear everytime we refresh the webpage -->
 <div class="yes">
 
 <div class="check" style=" display: block" id="21";>
@@ -337,6 +340,12 @@
     <div id="map">
 
     <script>
+
+      
+    $( function() {
+          $( "#map" ).resizable();
+        } );
+
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -344,7 +353,7 @@
           center: new google.maps.LatLng(43.322352,-1.9803229999999985),
           mapTypeId: 'roadmap'
         });
-       
+    
         var icons = {
           poke: {
             url: '188920.png',
@@ -682,6 +691,7 @@
           
           
         ];
+        // The next lines are going to relate an icon when is clicked and the cards.
         // Create markers.
         features.forEach(function(feature) {
           var marker = new google.maps.Marker({
@@ -708,12 +718,14 @@
             }
           });
         });
-        //Trying to add an animation to the moment when the card is hidden 
-        
+    
+    //Trying to add an animation to the moment when the card is hidden 
+
       /*   
       $( marker ).click(function() {
       $( ".None" ).toggle( "bounce", { times: 3}, "slow" );
-      }); */
+      }); 
+      */
       }
     </script>
     
